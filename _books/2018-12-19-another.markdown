@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Code highliting test"
+categories: jekyll update
+---
+
+# Books Books Books
+
+{% highlight python %}
+for i in range(19):
+    pass
+{% endhighlight %}
+
+
+{% highlight c++ %}
+
+class Test
+{
+    private:
+        int x;
+    public:
+        Test(): x{1}{};
+        template < typename T>
+        static void testPlutTest(T&& x)
+        {
+            std::forward<T>(x);
+        };
+    
+}
+for ( auto x: b )
+{
+    auto l = [](){};    
+}
+
+{% endhighlight %}
+
